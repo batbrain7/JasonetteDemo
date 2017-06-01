@@ -1,0 +1,210 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Movie Go",
+      "description": "This is the A1 movie app one can find",
+      "menu": {
+        "text": "Tap me",
+        "style": {
+          "color": "#ffffff",
+          "font": "HelveticaNeue-Bold",
+          "size": "17"
+        },
+        "action": {
+          "type": "$util.toast",
+          "options": {
+            "text": "Good job!"
+          }
+        }
+      },
+      "badge": {
+        "text": "3",
+        "style": {
+          "background": "#ff0000",
+          "color": "#ffffff"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "Movie Go",
+        "style": {
+          "font": "HelveticaNeue",
+          "size": "20",
+          "background": "#000000",
+          "color": "#ffffff",
+          "padding": "10"
+        },
+        "menu": {
+          "text": "Tap me",
+          "style": {
+            "color": "#0000ff",
+            "font": "HelveticaNeue-Bold",
+            "size": "17"
+          }
+        },
+        "action": {
+          "type": "$util.toast",
+          "options": {
+            "text": "Good job!"
+          }
+        }
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "horizontal",
+              "href": {
+                "url": "http://www.imdb.com/title/tt0468569/?ref_=nv_sr_3",
+                "view": "web"
+              },
+              "components": [
+                {
+                  "type": "image",
+                  "url": "https://images-na.ssl-images-amazon.com/images/G/01/dvd/warner/darkknight1lg.jpg",
+                  "style": {
+                    "width": "50",
+                    "height": "50",
+                    "corner_radius": "25"
+                  }
+                },
+                {
+                  "type": "vertical",
+                  "spacing": "10",
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "Dark Knight Rises",
+                      "style": {
+                        "font": "HevelticaNeue-Bold",
+                        "size": "14",
+                        "padding": "10"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "The most famous Batman Trilogy film. Click here to learn more about this movie",
+                      "style": {
+                        "color": "#cecece",
+                        "size": "12"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "url": "https://images-na.ssl-images-amazon.com/images/G/01/dvd/warner/darkknight1lg.jpg",
+                      "style": {
+                        "width": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "href": {
+                "url": "mailto:kumar.mohit983@gmail.com?subject=It20works!",
+                "view": "app",
+                "loading": "true",
+                "transition": "modal"
+              },
+              "components": [
+                {
+                  "type": "image",
+                  "url": "http://cdn-static.denofgeek.com/sites/denofgeek/files/9/26//narcos_main.jpg",
+                  "style": {
+                    "width": "50",
+                    "height": "50",
+                    "corner_radius": "25"
+                  }
+                },
+                {
+                  "type": "vertical",
+                  "spacing": "10",
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "Narcos",
+                      "style": {
+                        "font": "HevelticaNeue-Bold",
+                        "size": "14",
+                        "padding": "10"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "One of my favourite TV series. Click here to send an email...",
+                      "style": {
+                        "color": "#cecece",
+                        "size": "12"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "url": "http://cdn-static.denofgeek.com/sites/denofgeek/files/9/26//narcos_main.jpg",
+                      "style": {
+                        "width": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "action": {
+                "type": "$util.toast",
+                "options": {
+                  "text": "A Simple Toast!!"
+                }
+              },
+              "components": [
+                {
+                  "type": "image",
+                  "url": "http://www.cubanartnews.org/artwork/Bailando-getmusicasia.jpg",
+                  "style": {
+                    "width": "50",
+                    "height": "50",
+                    "corner_radius": "25"
+                  }
+                },
+                {
+                  "type": "vertical",
+                  "spacing": "10",
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "Bailando by Enrique Iglesias",
+                      "style": {
+                        "font": "HevelticaNeue-Bold",
+                        "size": "14",
+                        "padding": "10",
+                        "margin_left": "10"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "My favourite song, click here to know more about this SOng!!",
+                      "style": {
+                        "color": "#cecece",
+                        "size": "12"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "url": "http://www.cubanartnews.org/artwork/Bailando-getmusicasia.jpg",
+                      "style": {
+                        "width": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
